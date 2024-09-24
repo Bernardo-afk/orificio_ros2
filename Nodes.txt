@@ -22,11 +22,11 @@ Exemplo : ros2 node info /teste_da_tartaruga
 
 
 
- As nodes mandam informações pelos topicos via mensagens , tal que os subscpubriber e publishers recebem e mandam o mesmo typo de mensagem para comunicar-se
+ As nodes mandam informações pelos topicos via mensagens , tal que os subscrier e publishers recebem e mandam o mesmo tipo de mensagem para comunicar-se
  O type da mensagem é vista antes do "ros2 topic list -t", permitindo que sejaidentificado o tipo da mensagem passando por cada tópico .
 
  Exemplo : Analizar o cmd_vel, o tipo do topico é turtle1/cmd_vel [geometry_msgs/msg/TWIST]
- Isso quer dizer que no pacote 'geometry_msgs' existe uma 'msg' que possui o conteudo 'twist'
+ Isso quer dizer que no pacote 'geometry_msgs' exige uma 'msg' que possui o conteudo 'twist'
 
  Como saber o tipo de mensagen enviada ??
 
